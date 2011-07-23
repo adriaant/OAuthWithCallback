@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB32382513DB656E004570EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32382413DB656E004570EB /* UIKit.framework */; };
+		FB32382713DB656E004570EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32382613DB656E004570EB /* Foundation.framework */; };
+		FB32382913DB656E004570EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32382813DB656E004570EB /* CoreGraphics.framework */; };
+		FB32382F13DB656E004570EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB32382D13DB656E004570EB /* InfoPlist.strings */; };
+		FB32383213DB656E004570EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB32383113DB656E004570EB /* main.m */; };
+		FB32383513DB656E004570EB /* OAuthWithCallbackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB32383413DB656E004570EB /* OAuthWithCallbackAppDelegate.m */; };
+		FB32383813DB656E004570EB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB32383613DB656E004570EB /* MainWindow.xib */; };
+		FB32383B13DB656E004570EB /* OAuthWithCallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB32383A13DB656E004570EB /* OAuthWithCallbackViewController.m */; };
+		FB32383E13DB656E004570EB /* OAuthWithCallbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB32383C13DB656E004570EB /* OAuthWithCallbackViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB32382013DB656E004570EB /* OAuthWithCallback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuthWithCallback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB32382413DB656E004570EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB32382613DB656E004570EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB32382813DB656E004570EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB32382C13DB656E004570EB /* OAuthWithCallback-Info.plist */ = {isa = PBXFileReference; path = "OAuthWithCallback-Info.plist"; sourceTree = "<group>"; };
+		FB32382E13DB656E004570EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB32383013DB656E004570EB /* OAuthWithCallback-Prefix.pch */ = {isa = PBXFileReference; path = "OAuthWithCallback-Prefix.pch"; sourceTree = "<group>"; };
+		FB32383113DB656E004570EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB32383313DB656E004570EB /* OAuthWithCallbackAppDelegate.h */ = {isa = PBXFileReference; path = OAuthWithCallbackAppDelegate.h; sourceTree = "<group>"; };
+		FB32383413DB656E004570EB /* OAuthWithCallbackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthWithCallbackAppDelegate.m; sourceTree = "<group>"; };
+		FB32383713DB656E004570EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FB32383913DB656E004570EB /* OAuthWithCallbackViewController.h */ = {isa = PBXFileReference; path = OAuthWithCallbackViewController.h; sourceTree = "<group>"; };
+		FB32383A13DB656E004570EB /* OAuthWithCallbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthWithCallbackViewController.m; sourceTree = "<group>"; };
+		FB32383D13DB656E004570EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OAuthWithCallbackViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB32381D13DB656E004570EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB32382513DB656E004570EB /* UIKit.framework in Frameworks */,
+				FB32382713DB656E004570EB /* Foundation.framework in Frameworks */,
+				FB32382913DB656E004570EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB32381513DB656E004570EB = {
+			isa = PBXGroup;
+			children = (
+				FB32382A13DB656E004570EB /* OAuthWithCallback */,
+				FB32382313DB656E004570EB /* Frameworks */,
+				FB32382113DB656E004570EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB32382113DB656E004570EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB32382013DB656E004570EB /* OAuthWithCallback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB32382313DB656E004570EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB32382413DB656E004570EB /* UIKit.framework */,
+				FB32382613DB656E004570EB /* Foundation.framework */,
+				FB32382813DB656E004570EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB32382A13DB656E004570EB /* OAuthWithCallback */ = {
+			isa = PBXGroup;
+			children = (
+				FB32383313DB656E004570EB /* OAuthWithCallbackAppDelegate.h */,
+				FB32383413DB656E004570EB /* OAuthWithCallbackAppDelegate.m */,
+				FB32383613DB656E004570EB /* MainWindow.xib */,
+				FB32383913DB656E004570EB /* OAuthWithCallbackViewController.h */,
+				FB32383A13DB656E004570EB /* OAuthWithCallbackViewController.m */,
+				FB32383C13DB656E004570EB /* OAuthWithCallbackViewController.xib */,
+				FB32382B13DB656E004570EB /* Supporting Files */,
+			);
+			path = OAuthWithCallback;
+			sourceTree = "<group>";
+		};
+		FB32382B13DB656E004570EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB32382C13DB656E004570EB /* OAuthWithCallback-Info.plist */,
+				FB32382D13DB656E004570EB /* InfoPlist.strings */,
+				FB32383013DB656E004570EB /* OAuthWithCallback-Prefix.pch */,
+				FB32383113DB656E004570EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB32381F13DB656E004570EB /* OAuthWithCallback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB32384113DB656E004570EB /* Build configuration list for PBXNativeTarget "OAuthWithCallback" */;
+			buildPhases = (
+				FB32381C13DB656E004570EB /* Sources */,
+				FB32381D13DB656E004570EB /* Frameworks */,
+				FB32381E13DB656E004570EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthWithCallback;
+			productName = OAuthWithCallback;
+			productReference = FB32382013DB656E004570EB /* OAuthWithCallback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB32381713DB656E004570EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Sanoma Digital";
+			};
+			buildConfigurationList = FB32381A13DB656E004570EB /* Build configuration list for PBXProject "OAuthWithCallback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB32381513DB656E004570EB;
+			productRefGroup = FB32382113DB656E004570EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB32381F13DB656E004570EB /* OAuthWithCallback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB32381E13DB656E004570EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB32382F13DB656E004570EB /* InfoPlist.strings in Resources */,
+				FB32383813DB656E004570EB /* MainWindow.xib in Resources */,
+				FB32383E13DB656E004570EB /* OAuthWithCallbackViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB32381C13DB656E004570EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB32383213DB656E004570EB /* main.m in Sources */,
+				FB32383513DB656E004570EB /* OAuthWithCallbackAppDelegate.m in Sources */,
+				FB32383B13DB656E004570EB /* OAuthWithCallbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB32382D13DB656E004570EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB32382E13DB656E004570EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB32383613DB656E004570EB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB32383713DB656E004570EB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FB32383C13DB656E004570EB /* OAuthWithCallbackViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB32383D13DB656E004570EB /* en */,
+			);
+			name = OAuthWithCallbackViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB32383F13DB656E004570EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB32384013DB656E004570EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FB32384213DB656E004570EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OAuthWithCallback/OAuthWithCallback-Prefix.pch";
+				INFOPLIST_FILE = "OAuthWithCallback/OAuthWithCallback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB32384313DB656E004570EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OAuthWithCallback/OAuthWithCallback-Prefix.pch";
+				INFOPLIST_FILE = "OAuthWithCallback/OAuthWithCallback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB32381A13DB656E004570EB /* Build configuration list for PBXProject "OAuthWithCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB32383F13DB656E004570EB /* Debug */,
+				FB32384013DB656E004570EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB32384113DB656E004570EB /* Build configuration list for PBXNativeTarget "OAuthWithCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB32384213DB656E004570EB /* Debug */,
+				FB32384313DB656E004570EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB32381713DB656E004570EB /* Project object */;
+}
